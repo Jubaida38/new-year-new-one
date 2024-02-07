@@ -1,4 +1,8 @@
 
+body{
+    font-family: Work-sans;
+}
+
 /* header related styles */
 header{
     background-image: url('../images/banner/banner3.png');
@@ -29,9 +33,103 @@ header{
 .btn-primary{
     padding: 10px;
     color: #005FAC;
-    font-weight: 500;
+    font-weight: 700;
+    background-color: #FFF;
+    border: 0;
 }
 /* failure of previous related styles */
 .failure{
+    width: 900px;
+    display: inline-flex;
+    padding: 30px;
+    align-items: center;
+    margin-left: 190px;
+}
+
+.failure-previous{
+    padding-left: 30px;
+}
+
+/* My plans related styles  */
+
+.plans{
+    text-align: center;
+}
+.plans-title{
+    font-size: 40px;
+    margin-bottom: 50px;
+    font-family: Work-sans;
+}
+.web-development{
     display: flex;
+    justify-content: space-between;
+    width: 800px;
+    margin: auto;
+
+}
+.web-img{
+    margin-bottom: 0;
+}
+.web-title{
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.web-description{
+    margin-top: 5px;
+}
+
+/* Awlays keep a positive mindset styles */
+
+.positive{
+    background-image: url('../images/watch.png');
+    background-size: 90%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    margin-left: 145px;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+.positive-img{
+    width: 90%;
+    margin-bottom: 0;
+}
+.positive-topic{
+    margin-top: -250px;
+    width: 500px;
+    font-size: 40px;
+    margin-left: 20px;
+}
+.positive-title{
+    color: #FFF;
+    margin-bottom: 0;
+}
+footer{
+    margin-top: -300px;
+    background-color: #1a1b1b;
+    padding: 70px;
+   
+}
+.footer{
+    display: flex;
+    color: #eae6e6;
+    width: 900px;
+    margin: auto;
+    justify-content: space-between;
+}
+.future{
+    width: 400px;
+}
+.subscribe-button{
+    margin-top: 15px;
+    background-color: #005FAC;
+    padding: 10px 20px;
+    color: #eae6e6;
+    font-weight: 700;
+}
+.social-link{
+    font-size: 14px;
+    margin-right: 30px;
+    margin-top: 14px;
 }
